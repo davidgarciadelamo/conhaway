@@ -1,0 +1,67 @@
+/*estilos del HEADER*/
+.fondo-header {
+	background-color: #343a40;
+}
+.fondo-header img { width: 80px; }
+
+.fondo-header span {
+	font-size: 18px;
+	vertical-align: middle;
+}
+.platzitxt {
+	color: #97c93e !important; /*hace que predomine*/
+}
+/*/header*/
+/*ESTILOS DEL FOOTER*/
+.footer {
+	background-color: #1e516f;
+	
+}
+.footer a{
+	color:white ;
+}
+/* / FOOTER*/
+/*carrusel */
+#carrusel img{
+	height: 70vh;  /*Vh visualiza un proentaje de la vertical del dispositivo*/
+	object-fit: cover; /*para evitar la deformacion de la imagen al suar vh*/
+	filter: grayscale(50%);
+}
+#carrusel {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	color: white;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+#carrusel .overlay .container, #carrusel .overlay .row  {
+	height: 100%;
+}
+.btn-platzi {
+	background-color: #97c93e;
+	color: white;
+}
+
+.btn-platzi:hover {
+	background-color: #6C9F11;
+}
+/*ESTILOS CONTENEDOR COMPLETO*/
+/*FIN ESTILOS CONTENEDOR COMPLETO*/
+#lugarfecha{
+	background-color: #343a40;
+	color:white;	
+}
+#lugarfecha img{
+	max-width: 100%;
+}
+abbr {
+	text-decoration:none;
+}
